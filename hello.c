@@ -4,5 +4,5 @@
 
 int main(void)
 {
-    printf("hello, world\n");
+    printf("hello, world\n"); // this will print a formatted value to the terminal
 }
