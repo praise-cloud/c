@@ -10,5 +10,8 @@ int main() //
 
     int number = 15;
 
-    printf("hello %d", number); // $d i for number, %s is for strings etc
+    printf("hello, %d\n", number); // $d i for number, %s is for strings etc
+    // the %s is a placeholder for the strig(it is not a data type) and the character data type
+
+    printf("i got 100%% \n");
 }       
