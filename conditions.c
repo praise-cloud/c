@@ -8,9 +8,11 @@ int main(void){
 
     if(varX < varY){
         printf("%d is less than %d\n", varX, varY);
-    }else if(varX > varY){
+    }
+    else if(varX > varY){
         printf("%d is greater than %\n", varX, varY);
-    }else{
+    }
+    else{
         printf("they are same");
     }
 }
