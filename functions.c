@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void){
     // loops and varaibles
@@ -15,6 +16,10 @@ int main(void){
     {
         printf("meow\n");
         i++;
+    }
+
+    while(true){
+        printf("dancing");
     }
 
 
