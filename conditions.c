@@ -15,4 +15,15 @@ int main(void){
     else{
         printf("they are same");
     }
+
+    //making use of logical operator
+    if(varX < varY || varX <= varY){
+        printf("%d is less than or equal to %d\n");
+    }
+    else if(varX > varY && varX >= varY){
+        printf("%d is greater or equal to %d\n");
+    }
+    else {
+        printf("they are equal");
+    }
 }
